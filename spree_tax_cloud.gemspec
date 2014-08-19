@@ -9,14 +9,14 @@ Gem::Specification.new do |s|
   s.authors     = ["Jerrold Thompson"]
   s.email       = 'jet@whidbey.com'
   s.homepage    = 'https://github.com/jetsgit/spree_tax_cloud.git'
-  s.summary     = 'Spree 2.2.x extension  providing Tax Cloud services'
+  s.summary     = 'Spree 2.3.x extension  providing Tax Cloud services'
   s.description = 'Spree extension for providing Tax Cloud services in USA.'
 
   s.required_ruby_version = '>= 1.9.3'
 
   s.add_dependency 'spree_api'
   s.add_dependency 'spree_backend'
-  s.add_dependency 'spree_core', '~> 2.2.0'
+  s.add_dependency 'spree_core', '~> 2.3.0'
   s.add_dependency 'spree_frontend'
 
 	s.add_runtime_dependency 'savon', '2.5.1'
